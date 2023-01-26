@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Exercise_1_Creating_A_Template_Based_Form';
+   location = {
+    address: "01 BP 10 Lakota 01"
+  }
+  saveEvent(value:any) {
+    console.log( value )
+  }
 }
