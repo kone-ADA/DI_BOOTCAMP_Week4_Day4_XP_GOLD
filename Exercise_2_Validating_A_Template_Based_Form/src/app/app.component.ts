@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Exercise_2_Validating_A_Template_Based_Form';
+
+  location = {
+    address: "BP 03 bouake"
+  }
+
+  saveEvent(value: any) {
+    console.log(value)
+  }
 }
